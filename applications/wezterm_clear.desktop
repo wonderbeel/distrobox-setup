@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Clear (WezTerm)
+GenericName=Terminal entering Clear
+Comment=Terminal entering Clear
+Categories=Distrobox;System;Utility
+Exec=/usr/bin/flatpak run org.wezfurlong.wezterm start -- /usr/bin/distrobox enter clear 
+Icon=/home/alberto/.local/share/icons/distrobox/clear--os.png
+Keywords=distrobox;
+NoDisplay=false
+Terminal=false
+TryExec=/usr/bin/distrobox
+Type=Application
